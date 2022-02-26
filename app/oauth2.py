@@ -1,4 +1,3 @@
-import imp
 from fastapi import Depends, status, HTTPException
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
